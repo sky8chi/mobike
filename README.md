@@ -8,8 +8,10 @@
 3. 显示红包车与距离
 
 
-## 自己申请百度地图ak
+## 有动手能力，不怕代码烂，想自己维护的，下所有代码，自己申请百度地图ak
 mobike/app/src/main/AndroidManifest.xml
+```
 <meta-data
                 android:name="com.baidu.lbsapi.API_KEY"
                 android:value="申请的ak" />
+```
