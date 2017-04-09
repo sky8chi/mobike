@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" android:weightSum="1">
+    <EditText
+            android:id="@+id/timeout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入请求超时时间（单位秒）"
+    />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getLocation"
+            android:text="定位" android:id="@+id/button"/>
+    <TextView
+            android:id="@+id/tv_loc_info"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:textSize="18sp" />
+
+</LinearLayout>
